@@ -13,5 +13,7 @@ c = None  # реузльтат сюда
 # TODO вычисления резултата
 if operator == "pow":
     c = my_pow(a, b)
+if operator == 'division':
+    c = division(a, b)
 
 print("Результат = {}".format(c))
