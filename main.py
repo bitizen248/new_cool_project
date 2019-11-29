@@ -17,3 +17,5 @@ if operator == "pow":
 
 if operator == "sqrt":
     c = sqrt(a, b)
+
+print("Результат = {}".format(c))
