@@ -13,3 +13,5 @@ c = None  # реузльтат сюда
 # TODO вычисления резултата
 if operator == "pow":
     c = my_pow(a, b)
+
+print("Результат = {}".format(c))
