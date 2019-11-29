@@ -8,6 +8,7 @@ b = input("Введите b =")
 
 # TODO высти операторы
 print("pow, возведение a в степень b")
+print("minus, вычитание из a числа b")
 print("sqrt, корень a-ой степени из числа b")
 
 operator = input("Оператор =")
