@@ -1,5 +1,6 @@
 from pow import my_pow
 from my_sqrt import sqrt
+from division import division
 
 print("Очень крутой калькулятор!")
 a = input("Введите а =")
@@ -8,6 +9,7 @@ b = input("Введите b =")
 # TODO высти операторы
 print("pow, возведение a в степень b")
 print("sqrt, корень a-ой степени из числа b")
+print('division, деление a на b')
 operator = input("Оператор =")
 c = None  # реузльтат сюда
 
@@ -16,7 +18,6 @@ if operator == "pow":
     c = my_pow(a, b)
 if operator == 'division':
     c = division(a, b)
-
 if operator == "sqrt":
     c = sqrt(a, b)
 
