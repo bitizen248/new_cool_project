@@ -1,3 +1,5 @@
+from minus_func import my_minus
+from my_sqrt import sqrt
 from pow import my_pow
 
 print("Очень крутой калькулятор!")
