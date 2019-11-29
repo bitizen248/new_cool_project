@@ -17,3 +17,5 @@ if operator == "pow":
     c = my_pow(a, b)
 if operator == "minus":
     c = my_minus(a, b)
+
+print("Результат = {}".format(c))
